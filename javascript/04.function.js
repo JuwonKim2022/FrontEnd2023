@@ -54,3 +54,5 @@ let add4 = (e,f) => {
 console.log(add4(8,9));
 let add5 = (g,h) => g+h;
 console.log(add5(7,6));
+
+// 7-8. callback function
