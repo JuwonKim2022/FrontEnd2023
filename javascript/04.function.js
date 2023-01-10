@@ -56,3 +56,31 @@ let add5 = (g,h) => g+h;
 console.log(add5(7,6));
 
 // 7-8. callback function
+const add6 = (a,b) => a+b;
+const multiply = (a,b) => a*b;
+
+function calculator(a,b,action){
+  if(a<0 || b<0){
+    console.log('no data');
+    return;
+  }
+  let result = action(a,b);
+  console.log(result);
+  return result;
+}
+
+calculator(3, 7, add6);
+calculator(3, 7, multiply);
+calculator(-1, 0, multiply);
+
+// 7-9. immutability
+function displayObj(obj){
+  console.log(obj);
+};
+const ellie = {name: 'Ellie'};
+displayObj(ellie);
+
+function changeObj(obj){
+  return {...obj, name: 'Bob'};
+}
+changeObj(ellie);
