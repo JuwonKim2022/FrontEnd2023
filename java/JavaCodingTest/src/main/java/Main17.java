@@ -1,21 +1,10 @@
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.StringTokenizer;
+import java.util.Calendar;
 
-public class Main16 {
-    public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine());
-
-        int N = Integer.parseInt(st.nextToken());
-        boolean val = (N>=0 && N<=99);
-
-        if(val) {
-            if(N<10){
-
-            }
-        }
+public class Main17 {
+    public static void main(String[] args) {
+        Calendar now = Calendar.getInstance();
+        int day = now.get(Calendar.DAY_OF_WEEK);
+        
     }
 }
 
