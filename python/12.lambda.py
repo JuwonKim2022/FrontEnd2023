@@ -8,3 +8,8 @@ list1 = [1,2,3,4,5]
 list2 = [6,7,8,9,10]
 result = map(lambda a,b: a+b, list1, list2)
 print(list(result))
+
+list3 = [1,2,3]
+list4 = [10,20,30]
+result = map(lambda a,b: a+b,list3,list4)
+print(list(result))
