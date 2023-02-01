@@ -1,0 +1,77 @@
+.avatar{
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
+.profile{
+  position: relative;
+  width: 300px;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 20px;
+  background-color: rgb(255, 240, 250);
+  box-shadow: 11px 6px 9px -3px rgba(0,0,0,0.5);
+-webkit-box-shadow: 11px 6px 9px -3px rgba(0,0,0,0.5);
+-moz-box-shadow: 11px 6px 9px -3px rgba(0,0,0,0.5);
+}
+.photo{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+.newTag{
+  position: absolute;
+  left: 71%;
+  top: 10%;
+  color: aliceblue;
+  font-weight: bolder;
+  background-color: rgb(0, 187, 187);
+  padding: 0.2rem 0.5rem;
+  border-radius: 3px;
+}
+
+.container{
+  width: 500px;
+  margin: auto;
+}
+.counter{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 2px solid rgb(215, 127, 12);
+}
+.counter:hover{
+  background-color: rgb(246, 243, 197);
+}
+.number{
+  font-size: 7rem;
+}
+.button{
+  font-size: 2rem;
+  padding: 0.2rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: rgb(215, 127, 12);
+  background: linear-gradient(
+    90deg,
+    rgba(215, 127, 12, 1) 0%,
+    rgba(253, 220, 29, 1) 100%
+  );
+}
+
+.banner{
+  text-align: center;
+  margin-top: 5rem;
+  font-size: 2rem;
+  background-color: gold;
+  font-weight: bold;
+}
+.total{
+  font-size: 1rem;
+  margin-left: -1.5rem;
+}
