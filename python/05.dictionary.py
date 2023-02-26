@@ -19,3 +19,5 @@ b = {
 }
 print(b)
 print(b['이순신'])
+print(b[0])
+print(b[1])
